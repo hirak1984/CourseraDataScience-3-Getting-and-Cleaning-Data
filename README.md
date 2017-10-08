@@ -12,9 +12,11 @@ You should create one R script called run_analysis.R that does the following.
 
 ## Steps to work on this course project
 
-1. Create a folder named ```Data``` in your working directory.
+1. Make sure you have write access in the working directory.
 2. Put ```run_analysis.R``` in the working directory.
-3. Run ```source("run_analysis.R")```, then it will generate a new file ```tiny_data.txt``` in the Data folder.
+3. Run ```source("run_analysis.R")``` and then invoke the function ```runAnalysis```.
+4. The function will first download the dataset into a file called ```data.zip``` and then unzip it and work with it.
+5. After the function finishes, it will generate a new file ```tiny_data.txt``` in the working directory folder.
 
 ## Dependencies
 
